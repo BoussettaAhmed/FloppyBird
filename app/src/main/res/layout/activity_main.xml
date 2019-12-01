@@ -5,26 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/Background"
+    android:background="@drawable/background"
     >
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="FLOPPY BIRD"
         android:textColor="#FFFFFF"
         android:transformPivotX="20sp"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="138dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Start"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="335dp" />
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginRight="157dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:srcCompat="@drawable/start"
+        android:onClick="StartGame"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
