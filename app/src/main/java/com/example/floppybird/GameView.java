@@ -1,3 +1,4 @@
+/*
 package com.example.floppybird;
 
 import android.content.Context;
@@ -33,3 +34,4 @@ public class GameView extends View {
 }
 
 }
+*/
