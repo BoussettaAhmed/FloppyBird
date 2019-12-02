@@ -35,14 +35,6 @@
         tools:layout_editor_absoluteY="-120dp" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="131dp"
-        android:layout_height="369dp"
-        app:srcCompat="@drawable/pipe1"
-        tools:layout_editor_absoluteX="173dp"
-        tools:layout_editor_absoluteY="-4dp" />
-
-    <ImageView
         android:id="@+id/imageView7"
         android:layout_width="166dp"
         android:layout_height="287dp"
@@ -57,14 +49,6 @@
         app:srcCompat="@drawable/pipe2"
         tools:layout_editor_absoluteX="75dp"
         tools:layout_editor_absoluteY="330dp" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="44dp"
-        android:layout_height="683dp"
-        app:srcCompat="@drawable/pipe2"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="303dp" />
 
     <ImageView
         android:id="@+id/imageView12"
