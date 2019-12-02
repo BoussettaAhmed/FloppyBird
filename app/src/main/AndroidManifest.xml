@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Game_Owver"></activity>
+        <activity android:name=".le_bird_entre_le_pipe" />
+        <activity android:name=".bird" />
+        <activity android:name=".select_bird" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartGame">
-        </activity>
+        <activity android:name=".StartGame" />
     </application>
 
 </manifest>
